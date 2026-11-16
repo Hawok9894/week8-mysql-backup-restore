@@ -15,3 +15,6 @@
 -- 1. Disaster Recovery: Haddii server-ku burburo, waad soo celin kartaa.
 -- 2. Protection against human error: Haddii qof qalad ku DELETE gareeyo, backup ayaa badbaadiya.
 -- 3. Before major changes: Ka hor migration ama update weyn, backup waa badbaado.
+-- QUESTION 2
+-- mysqldump -u root -p --all-databases > all_databases_backup.sql
+-- This backs up ALL databases before migration so no data is lost.
