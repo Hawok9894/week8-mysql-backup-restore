@@ -18,3 +18,6 @@
 -- QUESTION 2
 -- mysqldump -u root -p --all-databases > all_databases_backup.sql
 -- This backs up ALL databases before migration so no data is lost.
+-- QUESTION 3
+-- mysql -u root -p < all_databases_backup.sql
+-- This restores ALL databases from the backup file.
